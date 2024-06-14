@@ -22,10 +22,11 @@ string randomWord(){
 		"Oman",
 		"Indonesia",
 	        "Nigeria",
-		"Ghana"
+		"Ghana",
+		"South africa"
 	};
-    cout << random(0, 11);
-	return words[random(0, 11)];
+    cout << random(0, 12);
+	return words[random(0, 12)];
 }
 
 int letterFill(char guess, string secretword, string &guessword){
