@@ -22,7 +22,7 @@ string randomWord(){
 		"Oman",
 		"Indonesia",
 	        "Nigeria",
-		"Ghana",
+		"Ghana"
 	};
     cout << random(0, 11);
 	return words[random(0, 11)];
