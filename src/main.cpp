@@ -20,10 +20,13 @@ string randomWord(){
 		"Iran",
 		"Ethiopia",
 		"Oman",
-		"Indonesia"
+		"Indonesia",
+	        "Nigeria",
+		"Ghana",
+		"South africa"
 	};
-    cout << random(0, 9);
-	return words[random(0, 9)];
+    cout << random(0, 12);
+	return words[random(0, 12)];
 }
 
 int letterFill(char guess, string secretword, string &guessword){
